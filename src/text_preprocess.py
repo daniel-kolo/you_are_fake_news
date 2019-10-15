@@ -28,7 +28,7 @@ def en_lemmatize(texts):
     nlp_model = spacy.load("en_core_web_md", disable=['parser', 'ner'])
     return [" ".join([token.lemma_ for token in nlp_model(text)]) for text in texts]
 
-def filter_stopwords(texts, additional_stopword=[]):
+def filter_stopwords(texts, additional_stopwords=[]):
     """
     Filter typical  english stop-words from nltk.corpus stop-words list.
     
