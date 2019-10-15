@@ -24,7 +24,8 @@ def train_val_test_split(X_data, y_data, val_size, test_size):
 
 def prepare_fastText_embedding_matrix(word_index, model_file):
     """
-    Lemmatize english texts.
+    Create an embedding matrix: n*m, where n is the number of words in word index
+    m is the size of an embedding vector.
     
      # Arguments:
         word_index: dictionary keys are words, values are the word indexes
@@ -60,7 +61,7 @@ def sequence_vectorize(train_texts, val_texts, test_texts, sequence_length = Non
     tokenizer = text.Tokenizer()
     tokenizer.fit_on_texts(train_texts)
 
-    # Vectorize training and validation texts.
+    # Vectorize training, validation and test texts.
     x_train = tokenizer.texts_to_sequences(train_texts)
     x_val = tokenizer.texts_to_sequences(val_texts)
     x_test = tokenizer.texts_to_sequences(test_texts)
