@@ -10,7 +10,7 @@ Kovács Bence
 ## The Project:
 Building a liveservice that can classify an english language news article as real news, or fake news.
 
-## Source of the data used for the project:
+## Data used for the project:
 //todo github url
 
 ## List of steps to prepare data for trainning, validation, and testing
