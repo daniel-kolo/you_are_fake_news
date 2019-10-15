@@ -16,13 +16,12 @@ Building a liveservice that can classify an english language news article as rea
 ## List of steps to prepare data for trainning, validation, and testing
 For more information, please see the comments in //file 
 
-//List of steps preparing the data
+- Removing stop-words from the articles
+- Lemmatisation of words in articles
+- Tokenization of words
 
-
-Please find the notebook that includes the code used to prepare the data at //file location.
-
-Please find the training data at //file.
-
-Please find the validition data at //file.
-
-Please find the testing data at //file.
+## Code and Datasets
+- Please find the notebook that includes the code used to prepare the data at //file location.
+- Please find the training data at //file.
+- Please find the validition data at //file.
+- Please find the testing data at //file.
