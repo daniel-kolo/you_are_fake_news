@@ -15,12 +15,16 @@ https://github.com/several27/FakeNewsCorpus
 ### Data can be downloaded at:
 https://storage.googleapis.com/researchably-fake-news-recognition/news_cleaned_2018_02_13.csv.zip
 
-## List of steps to prepare data for trainning, validation, and testing
-For more information, please see the comments in //file 
+## How to prepare data
+The notebooks, and other scripts are in the scr directory. For more information about the code, please see the comments. 
 
-- Removing stop-words from the articles
-- Lemmatisation of words in articles
-- Tokenization of words
+| File name | Usage |
+| ------------- | ------------- |
+| Data analysis.ipynb  | Content Cell  |
+| Download_data.ipynb  | Content Cell  |
+| Preprocess_data.ipynb  | Content Cell  |
+| text_preprocess.py  | Content Cell  |
+| training_preprocess.py  | Content Cell  |
 
 ## Code and Datasets
 - Please find the notebook that includes the code used to prepare the data at //file location.
