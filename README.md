@@ -23,5 +23,5 @@ The notebooks, and other scripts are in the scr directory. For more information 
 | Data analysis.ipynb  | Content Cell  |
 | Download_data.ipynb  | Content Cell  |
 | Preprocess_data.ipynb  | Content Cell  |
-| text_preprocess.py  | Content Cell  |
-| training_preprocess.py  | Content Cell  |
+| text_preprocess.py  | Functions for filtering stopwords, punctuation, and lemmatizing words.  |
+| training_preprocess.py  | Functions for spilitting and vectorizing the data.  |
