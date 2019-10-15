@@ -25,9 +25,3 @@ The notebooks, and other scripts are in the scr directory. For more information 
 | Preprocess_data.ipynb  | Content Cell  |
 | text_preprocess.py  | Content Cell  |
 | training_preprocess.py  | Content Cell  |
-
-## Code and Datasets
-- Please find the notebook that includes the code used to prepare the data at //file location.
-- Please find the training data at //file.
-- Please find the validition data at //file.
-- Please find the testing data at //file.
