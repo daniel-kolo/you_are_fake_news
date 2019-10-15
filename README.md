@@ -20,8 +20,8 @@ The notebooks, and other scripts are in the scr directory. For more information 
 
 | File name | Usage |
 | ------------- | ------------- |
-| Data analysis.ipynb  | Content Cell  |
-| Download_data.ipynb  | Content Cell  |
-| Preprocess_data.ipynb  | Content Cell  |
-| text_preprocess.py  | Content Cell  |
-| training_preprocess.py  | Content Cell  |
+| Data analysis.ipynb  | Analyzing text for stopwords and input length.  |
+| Download_data.ipynb  | Extracting a smaller database from the original database.  |
+| Preprocess_data.ipynb  | Processing data to be used by model.  |
+| text_preprocess.py  | Functions for filtering stopwords, punctuation, and lemmatizing words.  |
+| training_preprocess.py  | Functions for spilitting and vectorizing the data.  |
