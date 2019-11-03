@@ -3,6 +3,12 @@ import re
 import spacy
 from nltk.corpus import stopwords
 
+def filter_urls(texts):
+
+    #input list of texts
+    #output texts where the urls have been replaced with the word 'url'
+    return [ re.sub(r'http[^,|\s]*', 'url', text) for text in texts ]
+
 def filter_punctuation(texts):
     """
     Makes texts lowercase, deletes punctuation, and double spaces
