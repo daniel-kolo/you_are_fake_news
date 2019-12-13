@@ -3,7 +3,6 @@
 ## Team Members:
 - Kolozsvári Dániel
 - Domonkos Bálint
-- Kovács Bence
 
 ## The Project:
 Building a liveservice that can classify an english language news article as real news, or fake news.
@@ -25,3 +24,5 @@ The notebooks, and other scripts are in the scr directory. For more information 
 | Preprocess_data.ipynb  | Processing data to be used by model.  |
 | text_preprocess.py  | Functions for filtering stopwords, punctuation, and lemmatizing words.  |
 | training_preprocess.py  | Functions for spilitting and vectorizing the data.  |
+
+
