@@ -4,9 +4,16 @@ import spacy
 from nltk.corpus import stopwords
 
 def filter_urls(texts):
-
-    #input list of texts
-    #output texts where the urls have been replaced with the word 'url'
+    """
+    Replace the urls in the texts with the 'url' word.
+    
+    # Arguments:
+        texts: a list of the texts
+        
+    # Returns:
+        list of the filtered texts 
+    
+    """
     return [ re.sub(r'http[^,|\s]*', 'url', text) for text in texts ]
 
 def filter_punctuation(texts):
